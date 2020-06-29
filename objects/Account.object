@@ -386,6 +386,7 @@
     </fields>
     <fields>
         <fullName>Mobile__c</fullName>
+        <description>testting</description>
         <externalId>false</externalId>
         <label>Mobile</label>
         <length>18</length>
