@@ -1886,6 +1886,15 @@
         <name>ModerationRule</name>
     </types>
     <types>
+        <members>new_PS_group_Muted</members>
+        <name>MutingPermissionSet</name>
+    </types>
+    <types>
+        <members>Default_Navigation</members>
+        <members>test</members>
+        <name>NavigationMenu</name>
+    </types>
+    <types>
         <members>MyCommunity</members>
         <name>Network</name>
     </types>
@@ -2005,10 +2014,12 @@
         <members>SVPCustomerServiceSupport</members>
         <members>SVPHumanResources</members>
         <members>SVPSalesMarketing</members>
+        <members>SolutionEngineer</members>
         <members>VPInternationalSales</members>
         <members>VPMarketing</members>
         <members>VPNorthAmericanSales</members>
         <members>WesternSalesTeam</members>
+        <members>managerES</members>
         <name>Role</name>
     </types>
     <types>
