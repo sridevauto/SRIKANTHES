@@ -1,3 +1,2 @@
-<apex:page action="{!URLFOR('/answers/answersHome.apexp')}">
-<!-- testing-->
-</apex:page>
+<apex:page action="{!URLFOR('/answers/answersHome.apexp')}"/>
+<!--- test -->
