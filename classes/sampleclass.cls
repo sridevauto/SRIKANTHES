@@ -3,13 +3,12 @@ public class sampleclass{
     public string address {set;get;}
     public string phone {set;get;}
     public sampleclass(){
-
-        // new test pull branch
-    
+    //test review artifact
     //this sample class
     // This foxtel test ci job
 
 // testing pull request
+//testing pull request 2
    
     }
 }
