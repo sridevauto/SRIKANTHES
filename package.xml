@@ -2,6 +2,9 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <version>48.0</version>
     <types>
+        <members>AccountHandler</members>
+        <members>AccountList</members>
+        <members>Casehelper</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
         <members>CommunitiesLandingController</members>
@@ -2014,10 +2017,12 @@
         <members>SVPCustomerServiceSupport</members>
         <members>SVPHumanResources</members>
         <members>SVPSalesMarketing</members>
+        <members>SolutionEngineer</members>
         <members>VPInternationalSales</members>
         <members>VPMarketing</members>
         <members>VPNorthAmericanSales</members>
         <members>WesternSalesTeam</members>
+        <members>managerES</members>
         <name>Role</name>
     </types>
     <types>
