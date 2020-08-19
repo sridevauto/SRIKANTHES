@@ -3,6 +3,7 @@
     <version>48.0</version>
     <types>
         <members>AccountHandler</members>
+        <members>AccountList</members>
         <members>Casehelper</members>
         <members>ChangePasswordController</members>
         <members>ChangePasswordControllerTest</members>
