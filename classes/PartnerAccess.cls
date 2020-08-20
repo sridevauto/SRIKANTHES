@@ -9,4 +9,6 @@ public Class PartnerAccess{
       Mypartner  = new list<MY_Partner__c>();
     }
     ///test
+
+    //hsdfsgfhsgdhfgds
 }
