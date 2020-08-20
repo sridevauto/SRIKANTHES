@@ -8,4 +8,5 @@ public Class PartnerAccess{
     public partnerAccess(){
       Mypartner  = new list<MY_Partner__c>();
     }
+    ///test
 }
