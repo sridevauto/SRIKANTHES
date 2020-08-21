@@ -14,4 +14,5 @@
         controller.confirmPassword = 'abcd123';
         System.assert(controller.registerUser() == null);  
     }
+    // testing
 }

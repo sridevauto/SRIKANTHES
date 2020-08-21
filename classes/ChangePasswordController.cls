@@ -1,6 +1,8 @@
 /**
  * An apex page controller that exposes the change password functionality
  */
+//testing external
+//testing VS code
 public with sharing class ChangePasswordController {
     //Add a test comment
     public String oldPassword {get; set;}

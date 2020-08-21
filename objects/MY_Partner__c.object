@@ -141,7 +141,15 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <compactLayoutAssignment>my_partner_compact</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>my_partner_compact</fullName>
+        <fields>autoid__c</fields>
+        <fields>CreatedById</fields>
+        <fields>Description__c</fields>
+        <fields>Email__c</fields>
+        <label>my partner compact</label>
+    </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
     <description>testing object</description>
     <enableActivities>false</enableActivities>
@@ -153,9 +161,10 @@
     <enableSearch>false</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>Read</externalSharingModel>
     <fields>
         <fullName>Address__c</fullName>
+        <description>testing</description>
         <externalId>false</externalId>
         <label>Address</label>
         <length>30</length>
@@ -214,11 +223,17 @@
                     <default>false</default>
                     <label>Customer</label>
                 </value>
+                <value>
+                    <fullName>End user</fullName>
+                    <default>false</default>
+                    <label>End user</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
     <fields>
         <fullName>autoid__c</fullName>
+        <description>gffjlf</description>
         <displayFormat>A-{0000}</displayFormat>
         <externalId>false</externalId>
         <label>autoid</label>
@@ -250,6 +265,6 @@
     </nameField>
     <pluralLabel>MY partners</pluralLabel>
     <searchLayouts/>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Read</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>

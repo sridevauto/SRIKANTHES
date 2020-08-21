@@ -12,4 +12,9 @@
         
         System.assertEquals(controller.changePassword(),null);                           
     }    
+<<<<<<< HEAD
 }
+=======
+    //test
+}
+>>>>>>> efc8af2165b9208419b70eca919a1c9d6fb95f39
