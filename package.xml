@@ -115,6 +115,10 @@
         <name>Community</name>
     </types>
     <types>
+        <members>MY_Partner__c.my_partner_compact</members>
+        <name>CompactLayout</name>
+    </types>
+    <types>
         <members>standard__AppLauncher</members>
         <members>standard__Chatter</members>
         <members>standard__Community</members>

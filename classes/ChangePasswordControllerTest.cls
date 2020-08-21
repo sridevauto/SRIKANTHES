@@ -12,4 +12,5 @@
         
         System.assertEquals(controller.changePassword(),null);                           
     }    
+    //test
 }
