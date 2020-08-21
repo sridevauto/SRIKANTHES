@@ -233,6 +233,7 @@
     </fields>
     <fields>
         <fullName>autoid__c</fullName>
+        <description>gffjlf</description>
         <displayFormat>A-{0000}</displayFormat>
         <externalId>false</externalId>
         <label>autoid</label>
