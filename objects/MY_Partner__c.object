@@ -141,13 +141,12 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>my_partner_compact</compactLayoutAssignment>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
         <fullName>my_partner_compact</fullName>
         <fields>autoid__c</fields>
         <fields>CreatedById</fields>
         <fields>Description__c</fields>
-        <fields>Email__c</fields>
         <label>my partner compact</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
@@ -184,15 +183,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Email__c</fullName>
-        <externalId>false</externalId>
-        <label>Email</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>autoid__c</fullName>
         <description>gffjlf</description>
         <displayFormat>A-{0000}</displayFormat>
@@ -202,13 +192,14 @@
         <type>AutoNumber</type>
     </fields>
     <fields>
-        <fullName>fax__c</fullName>
+        <fullName>cost__c</fullName>
         <externalId>false</externalId>
-        <label>fax</label>
-        <length>10</length>
+        <label>cost</label>
+        <precision>18</precision>
         <required>false</required>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
