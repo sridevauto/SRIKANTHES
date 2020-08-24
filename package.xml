@@ -873,8 +873,6 @@
         <members>MY_Partner__c.Address__c</members>
         <members>MY_Partner__c.Description__c</members>
         <members>MY_Partner__c.Email__c</members>
-        <members>MY_Partner__c.Foxtel_Description__c</members>
-        <members>MY_Partner__c.Type__c</members>
         <members>MY_Partner__c.autoid__c</members>
         <members>MY_Partner__c.fax__c</members>
         <members>MY_Partner__c.phone__c</members>

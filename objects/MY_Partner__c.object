@@ -193,45 +193,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Foxtel_Description__c</fullName>
-        <externalId>false</externalId>
-        <label>Foxtel Description</label>
-        <length>10</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Type</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Partner</fullName>
-                    <default>false</default>
-                    <label>Partner</label>
-                </value>
-                <value>
-                    <fullName>Customer</fullName>
-                    <default>false</default>
-                    <label>Customer</label>
-                </value>
-                <value>
-                    <fullName>End user</fullName>
-                    <default>false</default>
-                    <label>End user</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>autoid__c</fullName>
         <description>gffjlf</description>
         <displayFormat>A-{0000}</displayFormat>
