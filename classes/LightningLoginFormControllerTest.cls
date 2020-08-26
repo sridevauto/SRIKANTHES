@@ -1,6 +1,6 @@
 @IsTest(SeeAllData = true)
 public with sharing class LightningLoginFormControllerTest {
-
+//test
  @IsTest
  static void testLoginWithInvalidCredentials() {
   System.assertEquals('Argument 1 cannot be null', LightningLoginFormController.login('testUser', 'fakepwd', null));
