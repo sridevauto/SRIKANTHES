@@ -20,9 +20,8 @@ Public class Casehelper{
          caselist = [SELECT Id,Description,experience__c,sales_areas_are_you_experienced_in__c,education_you_have_completed__c FROM Case WHERE Id =:CaseId]; 
      }
      system.debug('caselist'+ caselist);
-     //testing
     /*
-    testingg
+    
        
     for(Case Cas: [SELECT Id,Description,experience__c,sales_areas_are_you_experienced_in__c,education_you_have_completed__c FROM Case WHERE Id in: Trigger.new]){
          system.debug('Exper1'+ Cas.experience__c);
