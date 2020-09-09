@@ -26,12 +26,10 @@
         <members>LightningSelfRegisterControllerTest</members>
         <members>MyProfilePageController</members>
         <members>MyProfilePageControllerTest</members>
-        <members>PartnerAccess</members>
         <members>SiteLoginController</members>
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
-        <members>sampleclass</members>
         <name>ApexClass</name>
     </types>
     <types>
@@ -872,11 +870,8 @@
         <members>LeadCleanInfo.Industry</members>
         <members>MY_Partner__c.Address__c</members>
         <members>MY_Partner__c.Description__c</members>
-        <members>MY_Partner__c.Email__c</members>
-        <members>MY_Partner__c.Foxtel_Description__c</members>
-        <members>MY_Partner__c.Type__c</members>
         <members>MY_Partner__c.autoid__c</members>
-        <members>MY_Partner__c.fax__c</members>
+        <members>MY_Partner__c.cost__c</members>
         <members>MY_Partner__c.phone__c</members>
         <members>Macro.Description</members>
         <members>Macro.IsAlohaSupported</members>
@@ -1441,6 +1436,7 @@
         <members>WorkTypeGroup.OwnerId</members>
         <members>WorkTypeGroupMember.WorkTypeGroupId</members>
         <members>WorkTypeGroupMember.WorkTypeId</members>
+        <members>testdata__mdt.new_field__c</members>
         <name>CustomField</name>
     </types>
     <types>
@@ -1572,6 +1568,7 @@
         <members>StreamingChannel</members>
         <members>Task</members>
         <members>Test_Object__c</members>
+        <members>Test_URL__mdt</members>
         <members>TimeSlot</members>
         <members>Topic</members>
         <members>TopicAssignment</members>
@@ -1740,6 +1737,7 @@
         <members>Solution-Solution Layout</members>
         <members>Task-Task Layout</members>
         <members>Test_Object__c-Test Object Layout</members>
+        <members>Test_URL__mdt-Test URL Layout</members>
         <members>TimeSlot-Time Slot Layout</members>
         <members>User-User Layout</members>
         <members>UserAlt-User Profile Layout</members>
@@ -1749,6 +1747,7 @@
         <members>WorkType-Work Type Layout</members>
         <members>WorkTypeGroup-Work Type Group Layout</members>
         <members>WorkTypeGroupMember-Work Type Group Member Layout</members>
+        <members>testdata__mdt-testdata Layout</members>
         <name>Layout</name>
     </types>
     <types>
@@ -1950,6 +1949,7 @@
         <members>HighVolumePortal</members>
         <members>Identity User</members>
         <members>MarketingProfile</members>
+        <members>Minimum Access - Salesforce</members>
         <members>MyCommunity Profile</members>
         <members>Partner App Subscription User</members>
         <members>Partner Community Login User</members>

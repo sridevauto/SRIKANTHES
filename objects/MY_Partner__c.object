@@ -141,13 +141,12 @@
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
-    <compactLayoutAssignment>my_partner_compact</compactLayoutAssignment>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <compactLayouts>
         <fullName>my_partner_compact</fullName>
         <fields>autoid__c</fields>
         <fields>CreatedById</fields>
         <fields>Description__c</fields>
-        <fields>Email__c</fields>
         <label>my partner compact</label>
     </compactLayouts>
     <deploymentStatus>Deployed</deploymentStatus>
@@ -184,54 +183,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Email__c</fullName>
-        <externalId>false</externalId>
-        <label>Email</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Foxtel_Description__c</fullName>
-        <externalId>false</externalId>
-        <label>Foxtel Description</label>
-        <length>10</length>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>Type__c</fullName>
-        <externalId>false</externalId>
-        <label>Type</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Picklist</type>
-        <valueSet>
-            <restricted>true</restricted>
-            <valueSetDefinition>
-                <sorted>false</sorted>
-                <value>
-                    <fullName>Partner</fullName>
-                    <default>false</default>
-                    <label>Partner</label>
-                </value>
-                <value>
-                    <fullName>Customer</fullName>
-                    <default>false</default>
-                    <label>Customer</label>
-                </value>
-                <value>
-                    <fullName>End user</fullName>
-                    <default>false</default>
-                    <label>End user</label>
-                </value>
-            </valueSetDefinition>
-        </valueSet>
-    </fields>
-    <fields>
         <fullName>autoid__c</fullName>
         <description>gffjlf</description>
         <displayFormat>A-{0000}</displayFormat>
@@ -241,13 +192,14 @@
         <type>AutoNumber</type>
     </fields>
     <fields>
-        <fullName>fax__c</fullName>
+        <fullName>cost__c</fullName>
         <externalId>false</externalId>
-        <label>fax</label>
-        <length>10</length>
+        <label>cost</label>
+        <precision>18</precision>
         <required>false</required>
+        <scale>0</scale>
         <trackTrending>false</trackTrending>
-        <type>Text</type>
+        <type>Number</type>
         <unique>false</unique>
     </fields>
     <fields>
