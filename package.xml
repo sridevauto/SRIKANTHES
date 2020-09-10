@@ -142,6 +142,7 @@
         <members>Account.AccountSource</members>
         <members>Account.Active__c</members>
         <members>Account.AnnualRevenue</members>
+        <members>Account.AutorabitExtId__c</members>
         <members>Account.BillingAddress</members>
         <members>Account.ChannelProgramLevelName</members>
         <members>Account.ChannelProgramName</members>
