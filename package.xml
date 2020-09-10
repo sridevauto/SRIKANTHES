@@ -32,6 +32,7 @@
         <members>SiteLoginControllerTest</members>
         <members>SiteRegisterController</members>
         <members>SiteRegisterControllerTest</members>
+        <members>rochetest</members>
         <members>sampleclass</members>
         <name>ApexClass</name>
     </types>
