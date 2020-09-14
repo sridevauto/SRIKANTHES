@@ -3,7 +3,7 @@ public class AccountHandler {
 public static Account insertNewAccount()
 {
      Account act = New Account();
-        act.Name = 's';
+        act.Name = 'sri';
     try {
   
         insert act;
