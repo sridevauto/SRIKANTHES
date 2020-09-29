@@ -1,5 +1,5 @@
 Public class Leads_view{
-//tets
+
 @AuraEnabled
   public static list<lead> leadData(){
   
