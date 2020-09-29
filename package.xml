@@ -1991,6 +1991,7 @@
         <members>Task.UpdatePriority_0</members>
         <members>Task.UpdateStatus</members>
         <members>Task.UpdateStatus_0</members>
+        <members>new_lead</members>
         <name>QuickAction</name>
     </types>
     <types>
